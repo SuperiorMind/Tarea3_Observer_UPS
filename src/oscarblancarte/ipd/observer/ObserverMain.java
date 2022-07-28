@@ -4,7 +4,6 @@ import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
 import java.text.DecimalFormatSymbols;
 import java.util.Locale;
-import java.util.Observable;
 import oscarblancarte.ipd.observer.impl.ConfigurationManager;
 import oscarblancarte.ipd.observer.impl.observers.CurrencyObserver;
 import oscarblancarte.ipd.observer.impl.observers.DateFormatObserver;
