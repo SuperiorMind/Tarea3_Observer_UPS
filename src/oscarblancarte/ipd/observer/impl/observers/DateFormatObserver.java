@@ -6,7 +6,7 @@ import oscarblancarte.ipd.observer.impl.IObserver;
 
 /**
  * @author Oscar Javier Blancarte Iturralde
- * @see http://www.oscarblancarteblog.com
+ *
  */
 public class DateFormatObserver implements IObserver{
 

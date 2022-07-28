@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * @author Oscar Javier Blancarte Iturralde
- * @see http://www.oscarblancarteblog.com
+ *
  */
 public abstract class AbstractObservable implements IObservable {
 
