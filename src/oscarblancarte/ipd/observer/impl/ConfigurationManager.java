@@ -6,7 +6,7 @@ import java.text.SimpleDateFormat;
 
 /**
  * @author Oscar Javier Blancarte Iturralde
- * @see http://www.oscarblancarteblog.com
+ *
  */
 public class ConfigurationManager extends AbstractObservable {
 
@@ -56,6 +56,6 @@ public class ConfigurationManager extends AbstractObservable {
 
     public void setSymbolCurrencyFormat(DecimalFormatSymbols decimalFormatSymbols) {
         this.decimalFormatSymbols = decimalFormatSymbols;
-        notifyAllObservers("simbolFormat", this);
+        notifyAllObservers("symbolFormat", this);
     }
 }

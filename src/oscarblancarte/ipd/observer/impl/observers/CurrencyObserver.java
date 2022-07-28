@@ -7,7 +7,7 @@ public class CurrencyObserver implements IObserver {
 
     @Override
     public void notifyObserver(String command, Object source) {
-        if(command.equals("simbolFormat")){
+        if(command.equals("symbolFormat")){
             ConfigurationManager conf = (ConfigurationManager)source;
             System.out.println("Observer ==> CurrencyObserver.CurrencySymbolChange > "
                     + conf.getSymbolCurrencyFormat().getCurrencySymbol());
