@@ -1,0 +1,3 @@
+# HomeWork2_Decorator_UPS
+
+Usando el patrón Observer, tomando como base el ejemplo del administrador de configuracion, implementar una nueva configuración en la clase ConfigurationManager la cual nos permita administrar  configurar el formato de moneda, es decir, el usuario podrá indicar que  su moneda será dólar ($) o euro (€). Además tendremos que crear un nuevo observador que nos permita ser notificados de que el formato ha cambiado.
