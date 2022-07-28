@@ -9,7 +9,7 @@ public class CurrencyObserver implements IObserver {
     public void notifyObserver(String command, Object source) {
         if(command.equals("simbolFormat")){
             ConfigurationManager conf = (ConfigurationManager)source;
-            System.out.println("Observer ==> MoneyObserver.moneySimbolChange > "
+            System.out.println("Observer ==> CurrencyObserver.CurrencySymbolChange > "
                     + conf.getSymbolCurrencyFormat().getCurrencySymbol());
         }
     }
